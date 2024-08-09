@@ -39,16 +39,19 @@ const BoardDetail = () => {
   return (
     <div>
       <h1>Board ID: {board.id}</h1>
-      <Link to="/">{"<"} Back</Link>
-      <h2>Generation: {board.last_generation.generation_number}</h2>
-      <h2>Cells:</h2>
+      <h3>Generation: {board.last_generation.generation_number}</h3>
       <Board cells={board.last_generation.cells} />
       <hr />
       {board.game_over ? (
-        <p>Game Over</p>
+        <p className="game-over">Game Over!</p>
       ) : (
-        <button onClick={handleNextGeneration}>Próxima Geração</button>
+        <button className="button" onClick={handleNextGeneration}>
+          Próxima Geração
+        </button>
       )}
+      <div>
+        <Link to="/">{"< "}Board List</Link>
+      </div>
     </div>
   );
 };
