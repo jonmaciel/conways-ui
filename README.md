@@ -2,6 +2,8 @@
 
 This project is a web interface for Conway's Game of Life, implemented using React. Users can create boards, import initial states from CSV files, and advance generations to simulate the game's behavior.
 
+[Backend repo](https://github.com/jonmaciel/conways)
+
 ## Table of Contents
 
 - [Features](#features)
