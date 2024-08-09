@@ -7,6 +7,9 @@ This project is a web interface for Conway's Game of Life, implemented using Rea
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [CSV sample](#csv-sample)
+- [Result](#result)
+
 
 ## Features
 
@@ -36,8 +39,24 @@ This project is a web interface for Conway's Game of Life, implemented using Rea
    ```
 3. Make sure your Ruby on Rails backend is running.
 
+## CSV sample
+
+```
+1,0,1,0,0,1,0,1,0
+0,1,0,1,0,0,1,0,1
+0,0,1,0,1,0,0,1,0
+1,0,1,0,0,0,1,0,0
+0,1,0,1,1,0,1,0,1
+1,0,0,0,1,1,0,0,1
+0,0,1,0,1,0,1,1,0
+1,0,0,1,0,0,1,0,1
+0,1,0,0,1,0,1,0,0
+```
+
 ## Result:
 ![image](https://github.com/user-attachments/assets/42eeb8ff-3617-4cc7-9e3c-faf28185d2a0)
+
+
 
 ![image](https://github.com/user-attachments/assets/6f450b8f-c403-4804-bdba-406f09cb7130)
 
